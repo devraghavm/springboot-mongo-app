@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://<username>:<password>@<cluster-name>.frrwsn2.mongodb.net/spring
+
+server:
+  port: ${PORT:8080}
